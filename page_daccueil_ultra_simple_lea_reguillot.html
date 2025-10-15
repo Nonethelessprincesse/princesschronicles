@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>georges — director</title>
+  <meta name="description" content="Contact page" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&display=swap" rel="stylesheet">
+  <style>
+    :root { --bg:#000; --fg:#fff; }
+    *{ box-sizing:border-box }
+    html,body{ height:100% }
+    body{
+      margin:0; background:var(--bg); color:var(--fg);
+      display:grid; place-items:center; padding:24px;
+    }
+    main{
+      width:min(560px,90%);
+      font-family: 'Montserrat', system-ui, -apple-system, Segoe UI, Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif;
+      font-weight:700;
+      font-size:10px; /* taille réduite d'environ 30% */
+      line-height:1.7;
+      text-transform:lowercase;
+      text-align:left;
+    }
+    @media (min-width: 768px){ main{ font-size:11px } }
+    p{ margin:0; letter-spacing:0.2px; }
+    p span{ display:block }
+  </style>
+</head>
+<body>
+  <main aria-label="coordonnées">
+    <p>
+      <span>director</span>
+      <span>georges@princesschronicles.fr</span>
+      <span>+33 6 34 21 26 80</span>
+      <span>https://vimeo.com/georges</span>
+    </p>
+  </main>
+</body>
+</html>
